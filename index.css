@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', "sans-serif";
+    background-color: #548687;
+    text-align: center;
+}
+
+#msg{
+ margin: 10px;
+ font-size: 31px;
+ color: #FFFFC7;
+}
+h2{
+    font-size: 35px;
+}
+#new-btn{
+    margin: 10px;
+    padding: 18px;
+    border-radius: 14px;
+    color: #fff;
+    background-color: black;
+    font-size: 22px;
+    cursor: pointer;
+}
+#new-btn:hover{
+    background-color: #FFFFC7;
+    color: black;
+}
+
+.container{
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70vh;
+}
+.game{
+   height: 60vh;
+   width: 60vh;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1vmin;
+}
+
+.box{
+  height: 18vh;
+  width: 18vh;
+  border-radius: 8px;
+  border: none;
+  background-color: #FFFFC7;
+  font-size: 39px;
+}
+.game button, text{
+    font-size: 46px;
+    font-weight: bold;
+}
+.btn{
+    padding: 21px;
+    border-radius: 14px;
+    color: #fff;
+    background-color: black;
+    font-size: 22px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #FFFFC7;
+    color: black;
+}
