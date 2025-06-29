@@ -55,7 +55,8 @@ h2{
 }
 .game button, text{
     font-size: 46px;
-    font-weight: bold;
+    font-weight: bolder;
+    color: black;
 }
 .btn{
     padding: 21px;
@@ -68,4 +69,7 @@ h2{
 .btn:hover{
     background-color: #FFFFC7;
     color: black;
+}
+.hide {
+    display: none;
 }
